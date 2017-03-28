@@ -3,6 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".SqliteActivity">
     <item
         android:id="@+id/add_note"
-        app:showAsAction="ifRoom"
-        android:title="@string/add" />
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
 </menu>

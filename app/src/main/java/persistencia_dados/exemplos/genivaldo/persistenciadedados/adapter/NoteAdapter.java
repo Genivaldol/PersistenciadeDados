@@ -31,7 +31,6 @@ public class NoteAdapter extends ArrayAdapter<Note> {
         TextView noteText = (TextView) view.findViewById(R.id.note_text_view);
         Note note = getItem(position);
         noteText.setText(note.getNote());
-        ;
         return view;
     }
 }
